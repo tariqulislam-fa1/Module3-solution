@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#collapsibleNavbar .navbar-nav{
+    opacity: 0;
+}
+.container>h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#section{
+    background-color: grey;
+}
+#section h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+@media (max-width:575px){
+    #collapsibleNavbar .navbar-nav{
+        opacity: 1;
+    }
+    #section{
+        width: 80%;
+        margin: 0px auto;
+    }
+}
